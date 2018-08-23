@@ -8,20 +8,14 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>avek-engine</module>
         <module>avek-gui</module>
         <module>avek-model</module>
         <module>avek-graph</module>
-        <module>avek-engine-ws</module>
-        <module>avek-bus</module>
-        <module>avek-engine-instance</module>
-        <module>avek-dao</module>
-        <!--<module>avek-jenkins</module>-->
     </modules>
 
     <properties>
-        <scmUrl>https://github.com/AVEK-project/AVEK.git</scmUrl>
-        <scmConnection>scm:git:ssh://git@github.com:AVEK-project/AVEK.git</scmConnection>
+        <scmUrl>https://github.com/JustificationFactory/JustificationFactory-ClinicalStudies.git</scmUrl>
+        <scmConnection>scm:git:ssh://git@github.com:JustificationFactory-ClinicalStudies.git</scmConnection>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jersey2.version>2.27</jersey2.version>
         <jaxrs.version>2.1</jaxrs.version>
